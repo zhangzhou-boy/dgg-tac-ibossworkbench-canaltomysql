@@ -356,12 +356,4 @@ public class DggDateUtil {
         }
         return null;
     }
-
-    public static void main(String[] args) {
-//        System.out.println(OffsetDateTime.now().getOffset());
-
-        String currentDay = getCurrentDateString("yyyyMM");
-        System.out.println(currentDay);
-    }
-
 }
